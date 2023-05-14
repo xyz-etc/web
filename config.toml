@@ -1,4 +1,4 @@
-baseURL = "https://www.example.org/"
+baseURL = "https://michael.ainabe.com/"
 languageCode = "en-us"
 theme = "aafu"
 
@@ -48,6 +48,10 @@ theme = "aafu"
             icon = "fab fa-github"
             url = "https://github.com/xyz-etc"
             title = "GitHub"
+        [[params.social.list]]
+            icon = "fab fa-instagram"
+            url = "https://instagram.com/_ainabe"
+            title = "Instagram"
    
 
     #Specify what is showin in the Accordion
@@ -91,22 +95,22 @@ theme = "aafu"
         title = "Education"
         icon = "fas fa-graduation-cap"
 
+        # [[params.education.list]]
+        #    degree = "Ph.D. in Subject"
+        #    college = "University of State-City"
+        #    dates = "2013 - 2018"
+        #    thesis_title = "Effect of humans on other humans: a study of human behavior."
+        #    thesis_url = "#"
+        # [[params.education.list]]
+        #    degree = "M.S. in Subject"
+        #    college = "University of State-City"
+        #    dates = "2013 - 2018"
+        #    thesis_title = "Effect of humans on other humans: a study of human behavior."
+        #    thesis_url = "#"
         [[params.education.list]]
-            degree = "Ph.D. in Subject"
-            college = "University of State-City"
-            dates = "2013 - 2018"
-            thesis_title = "Effect of humans on other humans: a study of human behavior."
-            thesis_url = "#"
-        [[params.education.list]]
-            degree = "M.S. in Subject"
-            college = "University of State-City"
-            dates = "2013 - 2018"
-            thesis_title = "Effect of humans on other humans: a study of human behavior."
-            thesis_url = "#"
-        [[params.education.list]]
-            degree = "B.S. in Subject"
-            college = "University of State-City"
-            dates = "2004 - 2009"
+            degree = "B.S. in Computer Science"
+            college = "University of Houston - Victoria"
+            dates = "2010 - 2012"
 
     # Publication section
     [params.publication]
