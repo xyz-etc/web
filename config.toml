@@ -6,20 +6,20 @@ theme = "aafu"
   writeStats = true
 
 [params]
-    title = "Profile"
+    title = "michael.ainabe"
     author = "Michael Ainabe"
-    description = "Website title"
-    copyright = "© short copyright message"
+    description = "profile of michael ainabe"
+    copyright = "© 2023"
 
     [params.theme]
         # Available themes are 'light', 'dark', 'ocean', and 'pinkish'
-        mainTheme = "light"
+        mainTheme = "dark"
         # setting false below will hide 'aafu by darshan' displayed under the profile pic
-        showAttribute = false
+        showAttribute = true
         singlePage = false
 
     [params.favicons]
-        use = true
+        use = false
         metas = '''
         <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
@@ -81,14 +81,21 @@ theme = "aafu"
 
         [[params.experience.list]]
             position = "Senior Business Systems Analyst"
-            dates = "2020 - *Present*"
+            dates = "2021 - *Present*"
             company = "Cizik School of Nursing at UTHealth"
-            details = "Sed dignissim risus vitae sem consequat, nec accumsan elit congue. Proin laoreet metus dui, et tincidunt turpis congue nec. Curabitur in erat varius, efficitur lectus nec, sollicitudin neque. Morbi nec turpis et tellus tincidunt gravida vitae sit amet purus. Ut a consectetur nulla, et bibendum diam. Proin a ante quis risus posuere iaculis. Phasellus pharetra lorem odio, nec vehicula nisi ultrices id. In et venenatis neque. Donec vel venenatis leo. Nunc dictum nec massa ut placerat. Curabitur non lacinia velit."
+            details = "Sed dignissim risus vitae sem consequat, nec accumsan elit congue. Proin laoreet metus dui, et tincidunt turpis congue nec. Curabitur in erat varius, efficitur lectus nec."
         [[params.experience.list]]
-            position = "Job Title"
-            dates = "2018 - 2019"
+            position = "Business Systems Analyst"
+            dates = "2018 - 2021"
             url = "#"
-            company = "Company Name"
+            company = "Cizik School of Nursing at UTHealth"
+            details = "Sollicitudin neque. Morbi nec turpis et tellus tincidunt gravida vitae sit amet purus. Ut a consectetur nulla, et bibendum diam. Proin a ante quis risus posuere iaculis."
+        [[params.experience.list]]
+            position = "E-Learning Technologist"
+            dates = "2015 - 2018"
+            url = "#"
+            company = "Cizik School of Nursing at UTHealth"
+            details = " Phasellus pharetra lorem odio, nec vehicula nisi ultrices id. In et venenatis neque. Donec vel venenatis leo. Nunc dictum nec massa ut placerat. Curabitur non lacinia velit."
 
     # Education section
     [params.education]
